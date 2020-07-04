@@ -4,18 +4,18 @@
 def join_nested_strings(src)
   outer_results = []
   row_index = 0
-  while row_index < src.count do
+  while row_index < spice_rack.count do
     element_index = 0
+    longest_string_element = ""
     while element_index < src[row_index].count do
       if src[row_index][element_index].class == String
-        outer_results << src[row_index][element_index]
+        longest_string_element = src[row_index][element_index]
       end
       element_index += 1
     end
+    outer_results << longest_string_element
     row_index += 1
   end
-  puts outer_results
+outer_results
 end
-
-array = [1,2,"mouse",1,'cat']
-join_nested_strings(array)
+  
