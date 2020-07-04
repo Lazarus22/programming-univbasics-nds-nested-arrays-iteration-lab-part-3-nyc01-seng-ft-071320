@@ -1,4 +1,4 @@
-def join_nested_strings(src, index)
+def join_nested_strings(src, index, element)
   results_array = []
   count = 0
   while count < src.length do
