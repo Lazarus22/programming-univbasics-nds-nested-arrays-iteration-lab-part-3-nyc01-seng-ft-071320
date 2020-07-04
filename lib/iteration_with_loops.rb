@@ -1,3 +1,6 @@
+
+
+
 def join_nested_strings(src)
   outer_results = []
   row_index = 0
@@ -13,3 +16,6 @@ def join_nested_strings(src)
   end
   puts outer_results
 end
+
+array = [1,2,"mouse",1,'cat']
+join_nested_strings(array)
