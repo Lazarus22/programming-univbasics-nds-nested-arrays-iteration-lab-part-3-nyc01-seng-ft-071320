@@ -1,4 +1,12 @@
 def join_nested_strings(src)
-  # src will be an Array of Arrays of Strings and Integers
-  # Combine all Strings present in the AoA into a single value and return it
+  results_array = []
+  count = 0
+  while count < src.length do
+    if src[index][element].class == String
+    results_array << src[index][element]
+    count += 1
+  end
+  results_array
+end
+
 end
