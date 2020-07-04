@@ -15,5 +15,5 @@ def join_nested_strings(src, index, element)
     end
     row_index += 1
   end
-
+end
   outer_results
